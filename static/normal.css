@@ -83,6 +83,10 @@
     .voting-summary {
         display: none;
         }
+
+        ul{
+          list-style: none;
+        }
     
     
     /* Bootbox modal fix: */
