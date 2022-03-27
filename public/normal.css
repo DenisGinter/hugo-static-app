@@ -83,7 +83,29 @@
     .voting-summary {
         display: none;
         }
-    
+
+        ul{
+          list-style: none;
+        }
+
+        .list-options{
+          float: left;
+           padding: 20px;
+        }
+
+        .visbile-list-item{
+            display:none;
+            padding-right: 50px !important;
+        } 
+
+        .invisbile-list-item{
+          display:none !important;
+          padding-right: 50px !important;
+      } 
+
+    .reveal-solution-float{
+      clear: both;
+    }
     
     /* Bootbox modal fix: */
     .bootbox.modal .modal-lg .modal-header{
