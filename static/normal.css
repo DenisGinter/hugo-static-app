@@ -89,6 +89,37 @@
         display: none;
         }
 
+   
+
+        div.custom-control-right {
+          padding-right: 24px;
+          padding-left: 0;
+          margin-left: 0;
+          margin-right: 0;
+      }
+      div.custom-control-right .custom-control-label::after{
+          right: -1.5rem;
+          left: auto;
+      }
+      div.custom-control-right .custom-control-label::before {
+          right: -2.35rem;
+          left: auto;
+      }
+
+      .form-check {
+        display: inline-block;
+        white-space: nowrap;
+      }
+      
+      .checkbox {
+        border: 1px solid transparent;
+        text-align: right;
+      }
+      
+      .form-check-input{
+        float: right;
+      }
+
         ul{
           list-style: none;
         }
@@ -1805,22 +1836,7 @@
       border: 0;
     }
     .inner-page .search-modal .search-block input,
-    .home1 .search-modal .search-block input,
-    .home2 .search-modal .search-block input,
-    .home5 .search-modal .search-block input,
-    .home3 .search-modal .search-block input {
-      height: 60px;
-      line-height: 60px;
-      padding: 0 15px;
-      background: transparent;
-      border-width: 0 0 1px 0;
-      border-radius: 0;
-      border-color: rgba(255, 255, 255, 0.4);
-      box-shadow: none;
-      color: #ffffff;
-      font-weight: 600;
-      font-size: 18px;
-    }
+    
     .inner-page .search-modal .close,
     .home1 .search-modal .close,
     .home2 .search-modal .close,
@@ -6105,10 +6121,7 @@
       padding: 10px 15px;
       color: #505050;
     }
-    .rs-check-out .check-out-box .checkbox input {
-      height: auto;
-      margin-top: 7px;
-    }
+    
     .rs-check-out .shipping-box h3.title {
       font-size: 24px;
       margin: 0 0 30px;
@@ -6117,9 +6130,7 @@
       height: 80px;
     }
     .rs-check-out .shipping-box input,
-    .rs-check-out .checkbox input {
-      margin-right: 15px;
-    }
+    
     .rs-check-out .product-demo {
       width: 100%;
       display: inline-block;
@@ -6422,44 +6433,8 @@
       padding-left: 40px;
       padding-right: 100px;
     }
-    .shipping-area .panel-group a .checkbox {
-      margin: 0;
-      padding: 10px 0;
-    }
-    .shipping-area .panel-group a .checkbox .cr {
-      position: relative;
-      display: inline-block;
-      background: #cccccc;
-      border-radius: 100%;
-      margin-top: 0px;
-      margin-right: .5em;
-      width: 15px;
-      height: 15px;
-    }
-    .shipping-area .panel-group a .checkbox label {
-      margin: 0 !important;
-      padding: 0 !important;
-      text-transform: capitalize;
-      font-size: 18px;
-      font-weight: 700;
-    }
-    .shipping-area .panel-group a .checkbox label input[type="checkbox"] {
-      display: none;
-    }
-    .shipping-area .panel-group a .checkbox label input[type="checkbox"] + .cr > .cr-icon {
-      opacity: 1;
-      display: block;
-      color: #ff3115;
-      width: 15px;
-      height: 15px;
-    }
-    .shipping-area .panel-group a .checkbox label input[type="checkbox"] + .cr > .cr-icon {
-      opacity: 0;
-      transition: all 0.3s ease-in;
-      display: block;
-      padding: 5px;
-      color: #2962ff;
-    }
+   
+   
     .shipping-area .panel-group .panel-default > .panel-heading {
       background: transparent;
     }
